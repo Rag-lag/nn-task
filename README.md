@@ -69,8 +69,42 @@ The goal of the regression task is to predict the concentration of **Nitrogen Ox
 |:---------------------|--------------------:|--------------------:|
 | Positive (Predicted) |                1051 |                  41 |
 | Negative(predicted)  |                  75 |                 505 |
+
 |                       |   Accuracy |   Precision |   Number of Samples |
 |:----------------------|-----------:|------------:|--------------------:|
 | CO(GT) classification |   0.930622 |    0.924908 |                1672 |
 
+
+### Regression Task
+- **Performance Metrics**:
+|    RMSE |     MAE |   Number of Samples |
+|--------:|--------:|--------------------:|
+| 78.0184 | 49.1878 |                1672 |
+
+
+
+- **Actual vs Predicted NOx Values**:
+![Actual vs Predicted NOx](nox_comparison.png)
+
+---
+
+## Visualizations
+
+### Classification Task
+- **Training and Validation Loss:**
+![Classification Loss](classification_loss.png)
+- **Training and Validation Accuracy:**
+![Classification Accuracy](classification_accuracy.png)
+
+### Regression Task
+- **Training and Validation Loss:**
+![Regression Loss](regression_loss.png)
+
+---
+
+## How to Run the Code
+
+1. Install the required libraries:
+ ```bash
+ pip install pandas numpy matplotlib scikit-learn tensorflow tabulate
 
