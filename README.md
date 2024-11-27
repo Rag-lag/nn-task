@@ -95,6 +95,7 @@ The goal of the regression task is to predict the concentration of **Nitrogen Ox
 
 ### Regression Task
 - **Training and Validation Loss:**
+  
 ![Regression Loss](EstimationLoss.png)
 
 ---
