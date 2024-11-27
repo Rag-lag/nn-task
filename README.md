@@ -65,6 +65,12 @@ The goal of the regression task is to predict the concentration of **Nitrogen Ox
 ## Results and Evaluation
 
 ### Classification Task
-- Confusion Matrix:
+| Confusion Matrix     |   Positive (Actual) |   Negative (Actual) |
+|:---------------------|--------------------:|--------------------:|
+| Positive (Predicted) |                1051 |                  41 |
+| Negative(predicted)  |                  75 |                 505 |
+|                       |   Accuracy |   Precision |   Number of Samples |
+|:----------------------|-----------:|------------:|--------------------:|
+| CO(GT) classification |   0.930622 |    0.924908 |                1672 |
 
 
