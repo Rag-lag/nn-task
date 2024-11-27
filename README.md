@@ -76,7 +76,6 @@ The goal of the regression task is to predict the concentration of **Nitrogen Ox
 
 
 ### Regression Task
-- **Performance Metrics**:
 |    RMSE |     MAE |   Number of Samples |
 |--------:|--------:|--------------------:|
 | 78.0184 | 49.1878 |                1672 |
@@ -84,21 +83,19 @@ The goal of the regression task is to predict the concentration of **Nitrogen Ox
 
 
 - **Actual vs Predicted NOx Values**:
-![Actual vs Predicted NOx](nox_comparison.png)
+![Actual vs Predicted NOx](ActualVsEstimated.png)
 
 ---
 
 ## Visualizations
 
 ### Classification Task
-- **Training and Validation Loss:**
-![Classification Loss](classification_loss.png)
-- **Training and Validation Accuracy:**
-![Classification Accuracy](classification_accuracy.png)
+- **Training and Validation Acuuracy and Loss:**
+![Classification Loss](ClassificationVisual.png)
 
 ### Regression Task
 - **Training and Validation Loss:**
-![Regression Loss](regression_loss.png)
+![Regression Loss](EstimationLoss.png)
 
 ---
 
