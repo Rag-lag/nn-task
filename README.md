@@ -1,4 +1,3 @@
-# HELLO
 # Air Quality Analysis with Neural Networks
 
 This project involves analyzing air quality data using neural networks to perform two distinct tasks: **binary classification** and **regression**. The data is preprocessed to handle missing values, and the models are designed to make predictions based on historical air quality features.
